@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" >
+		<title>Boostrap Portfolio</title>
+		<!--Reset CSS-->
+		<link rel ="stylesheet" type="text/css" href ="assets/css/reset.css">
+		<!--Bootstrap CSS-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<!--My CSS-->
+		<link rel ="stylesheet" type="text/css" href ="assets/css/style.css">
+	</head>
+	<body>
+		
+			<nav class ="navbar-default navbar-static-top container-fluid myNavStyle">
+				<div class ="container">
+					<!-- removed navbar-brand for test purposes -->
+					<div class = "myNameHeader">
+						<div class ="myName">Rick Meaney</div>
+					</div>
+					<button class ="navbar-toggle"  data-toggle = "collapse" data-target =".navHeaderCollapse">
+						<span class ="icon-bar"></span>
+						<span class ="icon-bar"></span>
+						<span class ="icon-bar"></span>
+					</button>
+					<div class ="collapse navbar-collapse navHeaderCollapse myNavBar">
+						<ul class ="nav navbar-nav navbar-right">
+							<li><a href ="index.html">About</a></li>
+							<li><a href ="portfolio.html">Portfolio</a></li>
+							<li class = "active"><a href ="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			
+			<div class ="container">
+				<div class ="row">
+					<br />
+				</div>
+				<div class ="row>">
+					<div class = "col-md-8 mainBody">
+						<div class ="page-header">
+							<h1>Contact Me</h1>
+						</div>
+					
+					<div class ="row">
+						<div class ="col-md-12">
+							<form class ="myContactForm">
+							<div class ="form-group">
+								<label for="regularTextBox">Name</label>
+								<input type="text" class="form-control" id="RegularText" placeholder="John Smith">
+							</div>
+							<div class ="form-group">
+								<label for="exampleInputEmail1">Email address</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Example@gmail.com">
+							</div>
+							<div class ="form-group">
+								<label for="TextArea">Message</label>
+								<textarea class ="form-control" iduserMessage placeholder="Your message here:"></textarea>
+							</div>
+							<button  type="submit" class="btn btn-default mySubmitBtn">Submit</button>
+							</form>
+						</div>
+						
+					</div>
+					</div>
+					
+					
+					<div class = "col-md-4">
+						<div class="panel panel-default">
+  							<div class="panel-heading text-center" id ="connectColor">Connect with me</div>
+  							<div class="panel-body container">
+								<a href ="#"><img src ="assets/images/github_square_black.png"/></a>
+								<a href ="#"><img src ="assets/images/linkedin_square_color.png"/></a>
+								<a href ="#"><img src ="assets/images/Stack_Overflow.png"/></a>
+  							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<br />
+		<footer class = "footer">
+			<div class ="container">
+				<p class ="text-center">&copy; Copyright 2017 Rick Meaney</p>
+			</div>
+		</footer>
+	
+	<script src ="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+	</script>
+	<script src ="assets/js/bootstrap.js"></script>
+	</body>
+</html>
