@@ -18,6 +18,7 @@ body{
 	margin-left:15px;
 	margin-top:4px;
 	
+	
 }
 
 
@@ -30,10 +31,11 @@ body{
 	color:#777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size:14pt;
-	background-color:white; 
+	background-color:none; 
 	position:relative; 
 	z-index:3; 
-	margin-top:50px;
+	/* Look here*/
+	margin-top:0px;
 }
 .page-header h1{
 	padding-top:35px;
@@ -110,4 +112,23 @@ body{
 	font-size:17px;
 	padding-top:30px;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width:640px) {
+	.myNavBar{
+		color:#777777;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		font-size:14pt;
+		background-color:none; 
+		position:relative; 
+		z-index:3; 
+		/* Look here*/
+		margin-top:50px;
+		
+	}
 }
